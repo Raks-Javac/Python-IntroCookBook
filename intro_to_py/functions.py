@@ -14,6 +14,12 @@ def run_name_age(name, age):
     return name,age
 
 
+# you can also specify returrn type 
+
+def run_class( age)->int:
+    return age
+
+
 
 # name, age 
 print(run_name_age("Lanke",4))
