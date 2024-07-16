@@ -12,6 +12,7 @@ import random as rand
 class CoinFlip:
     
     def __init__(self):
+        #  Assign all variables to be taken for the flip coin 
         self.total_flips = None
         self.choice_list = ['H','T']
         self.number_of_head = 0
@@ -39,8 +40,8 @@ class CoinFlip:
     def start_flip(self):
         for _ in range(self.total_flips):
             choice_per_index = rand.choice(self.choice_list)
-            print(choice_per_index)
             self.total_h_t_list.append(choice_per_index)
+            
         for flip_rand in self.total_h_t_list:
             if(flip_rand == "H"):
                 self.number_of_head+=1
