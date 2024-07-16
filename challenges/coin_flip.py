@@ -5,10 +5,6 @@
 # Create a program that simulates flipping a coin. Ask the user how many times they want to flip the coin, and then report the results (e.g., "Heads: 5, Tails: 3").
 
 
-# ##### Challenge 9
-
-#  9.⁠ ⁠Quiz Program:
-# Create a program that asks users a series of questions, keeps track of their scores, and then reports their final score.
 
 
 import random as rand
@@ -67,7 +63,7 @@ class CoinFlip:
 
 coin_flip_app = CoinFlip()
 
-# coin_flip_app.start_app()
+coin_flip_app.start_app()
 
 
 
