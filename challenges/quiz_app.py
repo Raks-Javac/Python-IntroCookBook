@@ -88,4 +88,3 @@ class QuizApp:
 
 # Start quiz app
 quiz_app = QuizApp()
-quiz_app.start_quiz()

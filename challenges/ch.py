@@ -2,6 +2,7 @@ import calculator_app as capp
 import rock_paper_sis as rockapp
 import mab_lib as mat_l_app
 import coin_flip as coin_flip_app
+import quiz_app as quiz
 
 
 
@@ -20,3 +21,8 @@ mat_l_app.mat_lib_app.mat_lib_app()
 
 # Challenge 7
 coin_flip_app.coin_flip_app.start_app()
+
+
+# Challenge 9 
+
+quiz.quiz_app.start_quiz()
