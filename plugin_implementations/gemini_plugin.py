@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # This is the key generated from gemini google AI studio 
 # Link: https://aistudio.google.com/app/apikey
-google_api_key = "AIzaSyBqXinE0csy_leApMDCcPIwYnoTbDcb35I"
+google_api_key = "[Put your API Key here]"
 
 # Configure API key for Google Generative AI
 genai.configure(api_key=google_api_key)
