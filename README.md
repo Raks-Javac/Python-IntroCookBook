@@ -1,4 +1,4 @@
-# Python Implementations Archive
+# Python Introductory Cookbook
 
 ## Overview
 This project is a comprehensive archive of Python implementations, showcasing code examples and solutions built from the ground up. The archive includes both early and latest versions of Python syntax, offering a side-by-side comparison and learning resource. Additionally, this repository features API implementations, such as Google Maps and Gemini Flash, demonstrating practical applications of Python in real-world scenarios.
